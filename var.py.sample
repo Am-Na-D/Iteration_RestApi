@@ -1,0 +1,101 @@
+host = 'dev.azure.com'
+organization = 'defaultcollection'
+project = 'devops'
+azure_request = { 
+    'headers': {'content-type': 'application/json'},
+    'params': 'api-version=5.0',
+    'base_url': f'https://{host}/{organization}/{project}/_apis/wit/classificationnodes/Iterations'
+}
+token = ''
+username = ''
+
+root_parents = ["amin","amin2","amin3"]
+
+year = 1403
+dates = [   
+    #Sprint 1
+    {
+        "Start_Date" : "2022-04-04" , 
+        "Finish_Date" : "2022-04-24"
+    },
+    #Sprint 2
+    {
+        "Start_Date" : "2022-04-25" , 
+        "Finish_Date" : "2022-05-14"
+    },
+    #Sprint 3
+    {
+        "Start_Date" : "2022-05-15" , 
+        "Finish_Date" : "2022-06-4"
+    },
+    #Sprint 4
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    },
+    #Sprint 5
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    },
+    #Sprint 6
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    },
+    #Sprint 7
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    },
+    #Sprint 8
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    },
+    #Sprint 9
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    },
+    #Sprint 10
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    },
+    #Sprint 11
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    },
+    #Sprint 12
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    },
+    #Sprint 13
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    },
+    #Sprint 14
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    },
+    #Sprint 15
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    },
+    #Sprint 16
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    },
+    #Sprint 17
+    {
+        "Start_Date" : "2022-06-05" , 
+        "Finish_Date" : "2022-06-25"
+    }                        
+]
